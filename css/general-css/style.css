@@ -1,0 +1,233 @@
+:root{
+    --primary:rgb(8, 66, 123);
+    --background:#f9f9f9;
+    --black:#000;
+    --black-hover:#0c0c0c;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.top{
+    padding: .5em 12em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--primary);
+}
+.top p{
+    font-size: 120%;
+    color: var(--background);
+}
+.top i{
+    padding: .3em;
+    border: 1px solid #222;
+    border-radius: 20%;
+    color: var(--primary);
+    background: var(--background);
+}
+.top-icons{
+    display: flex;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 14px #777;
+    padding: .5em 12em;
+}
+.logo{
+    width: 15em;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+.navbar ul li a{
+    font-weight: 500;
+    font-size: 110%;
+    text-decoration: none;
+    color: var(--black);
+    transition: .5s ease;
+}
+.navbar ul li a:hover{
+    text-decoration: underline;
+}
+.navbar ul li .active{
+    text-decoration: underline;
+}
+
+
+.topic{
+    padding: 2em 0 ;
+    font-size: 200%;
+    text-align: center;
+}
+
+
+.black-label{
+    background: var(--black-hover);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 0;
+    font-size: 140%;
+}
+.label-left{
+    color: var(--background);
+    margin-left: 9em;
+}
+.label-left p{
+    font-size: 80%;
+}
+.label-left span{
+    color: var(--primary);
+}
+.label-right a{
+    color: var(--background);
+    margin-right: 12em;
+    font-size: 70%;
+    padding: .8em 1.5em;
+    background: var(--primary);
+    border-radius: 2em;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+/**Second label**/
+.d-label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25em;
+    padding: 1em 0;
+    background: var(--black-hover);
+    color: var(--background);
+}
+.d-label a{
+    color: var(--background);
+    font-size: 100%;
+    padding: .8em 2em;
+    background: var(--primary);
+    border-radius: 2em;
+    text-decoration: none;
+    font-weight: 500;
+    border: none;
+}
+.d-label-info{
+    line-height: 2em;
+}
+
+
+
+/** FOOTER SECTION BEGINS**/
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 7em;
+    background: var(--primary);
+    color: var(--background);
+    padding: 4em 0;
+    line-height: 2em;
+    font-size: 110%;
+}
+.get-in-touch div{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.get-in-touch{
+    width: 20em;
+}
+.get-in-touch a{
+    color: var(--background);
+    text-decoration: none;
+}
+
+
+.quick-links{
+    display: flex;
+    flex-direction: column;
+}
+.quick-links a{
+    color: var(--background);
+    text-decoration: none;
+}
+
+
+.footer-about-us{
+    display: flex;
+    flex-direction: column;
+    width: 20em;
+}
+.end{
+    background:var(--black) ;
+    color: var(--background);
+    padding: 1.5em ;
+    text-align: center;
+}
+.end p{
+    font-size: 105%;
+}
+
+/**FOOTER SECTION ENDS**/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 720px) {
+    .top{
+        padding: .3em 1em;
+    }
+    .top p{
+        font-size: 100%;
+    }
+    .top i{
+        padding: .1em;
+    }
+    header{
+        padding: 0 1em;
+    }
+    .logo{
+        width: 12em;
+    }
+    .navbar ul{
+        display: block;
+    }
+    .navbar ul li{
+        display: none;
+    }
+}

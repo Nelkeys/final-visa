@@ -1,0 +1,244 @@
+@import url(/css/general-css/style.css) all;
+@import url(/css/resp-index.css) all;
+
+
+
+.intro{
+    padding: 4em 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 25em;
+    overflow: hidden; /* Hide any overflowing content */
+    position: relative;
+}
+#video-background {
+    width: 100%; /* Make the video fill the entire div */
+    height: 100%;
+    object-fit: cover; /* Cover the entire div with the video, maintaining its aspect ratio */
+    position: absolute; /* Position the video absolutely within the div */
+    top: 0;
+    left: 0;
+    z-index: -1; /* Place the video behind other content */
+}
+.intro img{
+    width: 18em;
+    margin-right: 25em;
+}
+.intro-words{
+    line-height: 3.5em;
+    margin-left: 12em;
+}
+.black{
+    font-size: 380%;
+}
+.primary-c{
+    font-size: 380%;
+    width: 8em;
+    color: var(--primary);
+}
+.intro-words p{
+    font-size: 150%;
+}
+.intro-words a{
+    padding: .8em 1.5em;
+    background: var(--black);
+    text-decoration: none;
+    color: var(--background);
+    border-radius: 2em;
+    font-weight: 500;
+    transition: .5s ease;
+}
+.intro-words a:hover{
+    background: var(--black-hover);
+}
+
+
+
+
+
+
+
+
+
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    padding: 5em 15em;
+}
+.cards h3{
+    font-size: 140%;
+}
+.cards a{
+    text-decoration: none;
+    color: var(--background);
+    font-weight: 500;
+    font-size: 80%;
+}
+.card1,
+.card2,
+.card3{
+    background: var(--primary);
+    width: 30%;
+    height: 25em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2em;
+    padding: 1em 1.5em;
+    color: var(--background);
+}
+.card2{
+    background: var(--black-hover);
+}
+
+
+
+
+.real-background{
+    background: var(--background);
+    padding: 1em 0 ;
+}
+.about-us{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+    margin: 3em 0;
+}
+.about-us img{
+    width: 30em;
+    height: 18em;
+    padding: .8em;
+    box-shadow: 0 2px 5px #999;
+}
+.about-us-right{
+    line-height: 1.5em;
+    font-size: 120%;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+}
+.about-us-right p{
+    width: 25em;
+}
+.about-us-right a{
+    padding: .5em;
+    background: var(--black);
+    text-decoration: none;
+    color: var(--background);
+    border-radius: 1em;
+    transition: .5s ease;
+    width: 30%;
+    text-align: center;
+    font-size: 90%;
+    font-weight: 500;
+}
+
+
+.why-and-message{
+    margin:4em 0 1em 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+    background: var(--black-hover) ;
+    padding: 4em 0;
+    color: var(--background);
+}
+
+.why-choose{
+    font-size: 140%;
+    display:flex;
+    align-items: left;
+    flex-direction: column;
+    gap: 2em;
+}
+.why-choose h1{
+    font-size: 200%;
+}
+.why-choose span{
+    color: var(--primary);
+}
+.why-choose p{
+    width: 25em;
+}
+
+
+form{
+    width:30%;
+}
+.message-head{
+    text-align: center;
+}
+form input{
+    width: 100%;
+    padding: 1em .5em;
+    outline: none;
+}
+form textarea{
+    width: 100%;
+    height: 5em;
+    padding: 1em .5em;
+    resize: none;
+    outline: none;
+}
+form label{
+    font-size: 110%;
+    font-weight: 500;
+}
+form label span{
+    font-size: 150%;
+    color: var(--primary);
+    font-weight: 700;
+}
+
+#submit{
+    width: 30%;
+    align-self: center;
+    color: var(--background);
+    font-size: 100%;
+    padding: .8em;
+    background: var(--primary);
+    border-radius: 2em;
+    text-decoration: none;
+    font-weight: 500;
+    border: none;
+}
+
+
+
+
+.white-label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25em;
+    padding: 1em 0;
+}
+.white-label a{
+    color: var(--background);
+    font-size: 100%;
+    padding: .8em 2em;
+    background: var(--primary);
+    border-radius: 2em;
+    text-decoration: none;
+    font-weight: 500;
+    border: none;
+}
+.white-label-info{
+    line-height: 1.7em;
+}
+
+
+
+
+
+

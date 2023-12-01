@@ -1,0 +1,9 @@
+@media(max-width: 720px) {
+    .intro img{
+        width: 40%;
+    }
+    .intro-words{
+        margin-left: 2em;
+    }
+
+}

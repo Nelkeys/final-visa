@@ -1,0 +1,32 @@
+@import url(/css/general-css/style.css) all;
+
+
+
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    padding: 5em 15em;
+}
+.cards h3{
+    font-size: 140%;
+}
+.card1,
+.card2,
+.card3{
+    background: var(--primary);
+    width: 30%;
+    height: 25em;
+    display: flex;
+    align-items: center;
+    justify-content: top;
+    flex-direction: column;
+    gap: 2em;
+    padding: 2em 1.5em;
+    color: var(--background);
+}
+.card2{
+    background: var(--black-hover);
+}

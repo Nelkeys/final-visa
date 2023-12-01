@@ -1,0 +1,72 @@
+@import url(/css/general-css/style.css) all;
+
+
+
+.why-and-message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+    background: var(--background) ;
+    padding: 4em 0;
+    color: var(--black);
+}
+
+.why-choose{
+    font-size: 140%;
+    display:flex;
+    align-items: left;
+    flex-direction: column;
+    gap: 1em;
+}
+.why-choose h1{
+    font-size: 200%;
+}
+.why-choose span{
+    color: var(--primary);
+}
+.why-choose p{
+    width: 25em;
+}
+
+
+form{
+    width:30%;
+}
+.message-head{
+    text-align: center;
+}
+form input{
+    width: 100%;
+    padding: 1em .5em;
+    outline: none;
+}
+form textarea{
+    width: 100%;
+    height: 5em;
+    padding: 1em .5em;
+    resize: none;
+    outline: none;
+}
+form label{
+    font-size: 110%;
+    font-weight: 500;
+}
+form label span{
+    font-size: 150%;
+    color: var(--primary);
+    font-weight: 700;
+}
+
+#submit{
+    width: 30%;
+    align-self: center;
+    color: var(--background);
+    font-size: 100%;
+    padding: .8em;
+    background: var(--primary);
+    border-radius: 2em;
+    text-decoration: none;
+    font-weight: 500;
+    border: none;
+}
