@@ -1,9 +1,105 @@
 @media(max-width: 720px) {
+    body{
+        font-size: 12px;
+
+    }
+    .intro{
+        padding: 0;
+        flex-direction: column;
+        height: 100%;
+        text-align: center;
+    }
     .intro img{
+        margin-top: 3em;
         width: 40%;
     }
     .intro-words{
-        margin-left: 2em;
+        font-size: 70%;
+        align-items: center;
+    }
+    .intro-words p{
+        margin-top:.5em ;
+        width: 10em;
+    }
+    .intro-words a{
+        margin-top: .5em;
+        font-size: 150%;
+        padding: 1em 3em;
+        text-align: center;
     }
 
+    .black-label{
+        margin-top: 16em;
+        flex-direction: column;
+        justify-content: center;
+        padding: 1em 1em;
+        line-height: 2em;
+        font-size: 130%;
+    }
+    .label-left{
+        text-align: center;
+        margin: 0;
+    }
+    .label-right a{
+        margin: 0;
+    }
+
+
+
+
+
+
+    .cards{
+        flex-direction: column;
+        padding: 2em 2em;
+    }
+    /**
+    .card1,
+    .card2,
+    .card3{
+         width: ;
+    } **/
+
+    .about-us{
+        margin-top: 3em;
+        flex-direction: column;
+    }
+    .about-us img{
+        width: 25em;
+        height: 16em;
+    }
+    .about-us-right{
+        align-items: center;
+    }
+    
+    .about-us-right p{
+        max-width: 20em;
+    }
+
+
+    .why-and-message{
+        margin-top: 3em;
+        flex-direction: column;
+    }
+    .why-choose h1{
+        text-align: center;
+    }
+
+
+    .white-label{
+        flex-direction: column;
+        text-align: center;
+    }
+    .white-label-info{
+        width: 250%;
+    }
+
+
+
+
+    footer{
+        flex-direction: column;
+        padding: 2em 2.5em ;
+        gap: 3em;
+    }
 }
